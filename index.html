@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+    <link rel = "stylesheet" href = "style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Beat pad</title>
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+            <div class = "pads">
+                <video autoplay loop muted>
+                    <source src="videos/movingBackround.mp4" id = "movingBackround">
+                </video>
+                <div class = "vidContainer">
+                    <audio id = "menu" src="sounds/Music.mp3"></audio>
+                    <audio id = "firstNote">
+                        <source src = "sounds/Drum.mp3" type = "audio/mp3">
+                    </audio>
+                    <audio id = "secondNote">
+                        <source src = "drum1/Drum1.wav" type = "audio/wav">
+                    </audio>
+                    <h1>Beat pad</h1>
+                    <p>Let your imagination run wild!</p>
+                    <div id = "pad1" class = "pads"></div>
+                    <div class = "pads" id = "pad2"></div>
+                    <div class = "pads" id = "pad3"></div>
+                    <div class = "pads" id = "pad4"></div>
+                    <div class = "pads" id = "pad5"></div>
+                    <div class = "pads" id = "pad6"></div>
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src = "script.js" ></script>
+</body>
+</html>
